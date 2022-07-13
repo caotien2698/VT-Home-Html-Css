@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <div class="header__logo">
+                        <img src="/assets/img/nha_white_logo.png" alt="" class="header_logo-img">
+                    </div>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <i class="fa-solid fa-house"></i>
+                            <a href="" class="header__navbar-item-link">Trang chủ</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <i class="fa-solid fa-user"></i>
+                            <a href="" class="header__navbar-item-link">Quản lý tin</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <a href="" class="header__navbar-item-link">Đơn hàng</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <i class="fa-solid fa-comments"></i>
+                            <a href="" class="header__navbar-item-link">Chat</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--has-notify">
+                            <i class="fa-solid fa-bell"></i>
+                            <a href="" class="header__navbar-item-link">Thông báo</a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h5>Thông báo mới nhận</h5>
+                                </header>
+                                <ul class="header__notify-list ">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link header__notify-item--viewed">
+                                            <img src="./assets/img/NotifyImg.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Căn hộ giá rẻ</span>
+                                                <span class="header__notify-description">Mô tả</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link header__notify-item--viewed">
+                                            <img src="./assets/img/NotifyImg.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Căn hộ giá rẻ</span>
+                                                <span class="header__notify-description">Mô tả</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/NotifyImg.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Căn hộ giá rẻ</span>
+                                                <span class="header__notify-description">Mô tả</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="" class="header__navbar-item-link">Thêm</a>
+                        </li>
+                    </ul>
+                   
+                </nav>
+                <div class="header-with-search">
+                    <div class="header__search">
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Mua bán</span>
+                            <span class="header__search-select-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><g fill="none" fill-rule="evenodd"><path fill="#000" d="M6 6L11 11.5 1 11.5z" opacity=".8" transform="matrix(1 0 0 -1 0 17.5)"></path><path stroke="#FFF" stroke-width=".1" d="M0 0H12V16H0z" opacity=".01"></path></g></svg>
+                            </span>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item-selected">
+                                    
+                                    <span>Mua bán</span>
+                                    <svg data-type="monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" width="1em" height="1em" fill="none"><path fill="currentColor" d="M6.096 12L0 6.154l2.104-2.04 3.935 3.773L13.839 0 16 1.986z"></path></svg>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Cho thuê</span>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Dự án</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <input type="text" class="header__search-input" placeholder="Bất động sản">
+                        <div class="header__search-search">
+                            <button class="header__search-search-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 16 16" width="1em" height="1em" fill="none"><path fill="currentColor" d="M6.4 0a6.369 6.369 0 00-4.525 1.873A6.425 6.425 0 00.502 3.906v.002A6.383 6.383 0 000 6.398a6.372 6.372 0 001.875 4.524 6.385 6.385 0 008.428.537l-.006.006 4.295 4.293a.827.827 0 001.166-1.166l-4.295-4.295a6.368 6.368 0 00-.537-8.424A6.372 6.372 0 006.4 0zm0 1.615a4.75 4.75 0 013.383 1.4c.44.44.785.95 1.028 1.522h-.002c.249.59.377 1.214.377 1.861 0 .648-.128 1.27-.377 1.862h.002a4.783 4.783 0 01-2.55 2.545c-.59.25-1.213.377-1.86.377a4.761 4.761 0 01-1.864-.377A4.749 4.749 0 013.016 9.78c-.44-.44-.783-.95-1.024-1.521a4.735 4.735 0 01-.377-1.862c0-.647.127-1.272.377-1.863a4.75 4.75 0 011.024-1.52 4.754 4.754 0 013.384-1.4z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__login">
+                        <a href="" class="header__login-link">
+                          <img class="header__login-icon" src="./assets/img/user_icon.png" alt="">
+                          <span class="header__login-span">Đăng nhập</span>
+                        </a>
+                    </div>
+                    <div class="header__posting">
+                        <a href="" class="header__posting-link">
+                            <!-- <img class="header__posting-link-icon" src="./assets/img/posting_icon.png"/> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 23.228 23.227" width="1em" height="1em" fill="none"><path d="M13.288 0a.759.759 0 110 1.518H3.396a1.88 1.88 0 00-1.877 1.877v16.438a1.88 1.88 0 001.877 1.877h16.437a1.88 1.88 0 001.877-1.877V9.488a.76.76 0 011.518 0v10.344a3.399 3.399 0 01-3.395 3.395H3.396A3.4 3.4 0 010 19.832V3.395A3.4 3.4 0 013.396 0zm6.022.21c.273-.1.564-.078.835-.038.276.042.57.205.83.461l.54.54 1.117 1.117c.24.24.394.497.46.766a1.68 1.68 0 01-.4 1.545l-.058.062c-.344.352-.7.707-1.048 1.05l-.631.63-6.33 6.328-.488.493-.038.04c-.307.31-.621.628-.939.932-.153.148-.339.219-.619.236l-3.014.184h-.03a.719.719 0 01-.484-.218c-.158-.156-.249-.358-.24-.543l.135-3.097c.016-.253.095-.443.248-.598l.157-.16.003-.002.082-.081 5.416-5.415a719.16 719.16 0 011.747-1.745l1.68-1.682c.144-.146.27-.275.397-.396a1.8 1.8 0 01.672-.408zm.493 1.428l-.221.219c-.153.151-.306.305-.457.456l-.536.537-8.151 8.152-.086 1.957 1.906-.115.312-.312.226-.224.05-.049.385-.38 8.401-8.403-1.211-1.209a8.233 8.233 0 01-.172-.175l-.027-.029c-.065-.068-.13-.137-.2-.206l-.22-.219z" fill="currentColor"></path></svg>
+                            ĐĂNG TIN
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </header>
+        <div class="container">
+        </div>
+        <footer class="footer">
+        </footer>
+    </div>
+</body>
+</html>
